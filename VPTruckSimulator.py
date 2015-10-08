@@ -1,6 +1,6 @@
 import pygame
 from pygame.locals import *
-from gameobjects.vector2 import Vector2
+from vector2 import Vector2
 from random import randint, choice
 
 pygame.mixer.pre_init(44100, 16, 2, 4096)
